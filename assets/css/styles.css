@@ -101,7 +101,7 @@ img{
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./assets/images/GEH-10.jpg);
+    background-image: url(../images/GEH-10.jpg);
     height: 100vh;
     display: flex;
     justify-content: center;
