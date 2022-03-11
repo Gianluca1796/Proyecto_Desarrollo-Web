@@ -23,6 +23,7 @@ a {
     text-decoration: none;
     color:white
 }
+
 img{
     width: 100%;
 }
@@ -236,6 +237,18 @@ h2{
 .bio-1-img2 img{
     max-width: 100%;
 }
+.reserve{
+    justify-content: center;
+    gap: 150px;
+    height: 300px;
+    font-size: 1.8em;
+    padding: 10px;
+}
+.bio-1 h2{
+    color: #ff6b97;
+    font-size: 3em;
+}
+
 
 /*FIN BIODESCODIFICACIÓN*/
 
@@ -262,7 +275,6 @@ h2{
     display: none;
     text-align: center;
 }
-
 .carousel-item h2{
     text-align: center;
     margin-top: 4rem;
@@ -453,7 +465,7 @@ h2{
     justify-content: space-around;
     
 }
-form {
+.contact-form {
     font-size: 1.5rem;
     border: 2px solid crimson;
     width: 300px;
@@ -473,12 +485,12 @@ label {
     border-radius: 10px ;
 }   
 
-input{
+.form-control{
     border: 1px solid rgb(202, 190, 190);
-    border-radius: 10px;
-    padding: .3rem;
-    width: 80%;
+    border-radius: 8px;
+    background-color: inherit;
 }
+
 .btn-primary {
     color: #fff;
     background-color: #ff6b97;
@@ -644,7 +656,6 @@ input{
 @media screen and (max-width: 600px){
     form{
         text-align: center;
-        margin: 3rem;
         width: 100%;
     }
     .textarea {
@@ -668,6 +679,33 @@ input{
     }
     .bio-text{
         max-width: 60%;
+    }
+    .reserve{
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        gap: 1px;
+        font-size: 1.8em;
+        width: 100%;
+    }
+    .reserve-form{
+        width: 100%;
+    }
+    /* .row .mb-3{
+        width: 100%;
+    }
+    .col-sm-10-mb-10{
+        width: 100%;
+    } */
+
+    .form-control{
+        width: 80%;
+    }
+    .col-form-label{
+        text-align: left;
+    }
+    .form-check-label{
+        text-align: left;
     }
     .footer{
         height: max-content ;
