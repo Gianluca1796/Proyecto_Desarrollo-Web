@@ -237,76 +237,47 @@ h2{
     max-width: 100%;
 }
 
-
-
-
-
 /*FIN BIODESCODIFICACIÓN*/
 
 
 /*TESTIMONIOS*/
 
-.grid-testimonios{
-    display: grid;
-    height: 600px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 5rem;
-    gap: 2em;
-}
 .testimonios-title{
     font-size: 3em;
     padding-top: 10rem;
     text-align: center;
     color: #ff6b97;
 }
-.testimonio1{
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+}
+.carousel-item {
+    margin-right: 0%;
+    width: 60%;
+    position: relative;
+    display: none;
     text-align: center;
-    grid-row: 1 / 3;
-    border: 1px solid gray;
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px 0px #A39897;
-    padding-top:.8rem
 }
-.testimonio1 img{
-    width: 180px;
+
+.carousel-item h2{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
-.testimonio1 p{
+.carousel-item p{
+    text-align: center;
     padding: 2rem;
     font-size: 1.3em;
 }
-.testimonio2{
-    text-align: center;
-    grid-column: 2;
-    grid-row: 1 / 3;
-    border: 1px solid gray;
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px 0px #A39897;
-    padding-top:.8rem
+.carousel-item img{
+    width: 200px;
+    margin-top: 5rem;
 }
-.testimonio2 img{
-    width: 180px;
-}
-.testimonio2 p{
-    padding: 2rem;
-    font-size: 1.3em;
-}
-.testimonio3{
-    text-align: center;
-    grid-column: 3;
-    grid-row: 1 / 3;
-    border: 1px solid gray;
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px 0px #A39897;
-    padding-top:.8rem
-}
-.testimonio3 img{
-    width: 180px;
-}
-.testimonio3 p{
-    padding: 2rem;
-    font-size: 1.3em;
-}
+
 /*FIN TESTIMONIOS*/
 
 /*SOBRE MI*/
