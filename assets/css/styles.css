@@ -500,7 +500,7 @@ label {
     padding: 5px;
     border: 1px solid rgb(202, 190, 190);
     border-radius: 10px ;
-}
+}   
 
 input{
     border: 1px solid rgb(202, 190, 190);
@@ -508,19 +508,11 @@ input{
     padding: .3rem;
     width: 80%;
 }
-.enviar {
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 5px;
-    width: 45%;
+.btn-primary {
+    color: #fff;
+    background-color: #ff6b97;
+    border-color: #ff6b97;
 }
-.reset{
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 5px;
-    width: 45%;
-}
-
 /*FIN CONTACTO*/
 
 /*FOOTER*/
