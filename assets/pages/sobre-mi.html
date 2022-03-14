@@ -36,19 +36,28 @@
     </header>
     <main>
     <h2 class="aboutme__title" id="sobre-mi">SOBRE MI</h2>
-    <div class="containerMain">
-        <div class="container__item">
-            <h2>¿Quién soy?</h2>    
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint ut
-                consectetur ad officia nemo animi qui beatae at illum incidunt ipsa, distinctio impedit
-                repudiandae
-                asperiores magni expedita, quo aperiam?</p>
-            <button class="button"><a href="./assets/pages/sobre-mi.html">Ver más</a></button>
-            <h2>¿Cómo vamos a trabajar?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet impedit accusamus
-                molestiae enim ab consequuntur doloribus, saepe est, repellendus dignissimos voluptates pariatur
-                tempora tenetur iusto dolorum? Ut mollitia rerum nemo!</p>
-            <button class="button"><a href="./assets/pages/sobre-mi.html">Ver más</a></button>
+    <div class="containerMain ">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  ¿Quién soy?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ipsum, ea inventore id cumque reprehenderit, quas, dignissimos hic nulla quam quaerat sapiente cupiditate eaque corporis labore praesentium doloremque sit possimus.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  ¿Cómo vamos a trabajar?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor qui temporibus non, expedita, amet nesciunt animi blanditiis eaque adipisci accusantium saepe alias assumenda eveniet nisi suscipit eius ipsam praesentium ullam.</div>
+              </div>
+            </div>
         </div>
         <picture class="container__item2">
             <img class="container__item2_img" src="../images/GEH-18 1.png" alt="foto-de-prueba1" width="300">

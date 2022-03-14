@@ -32,6 +32,7 @@ h1{
 }
 h2{
     font-weight: bold;
+    color: #ff6b97;
 }
 
 /*HEADER & NAVBAR*/
@@ -41,8 +42,7 @@ h2{
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
-
-}
+} 
 
 .navbar__logo {
     display: flex;
@@ -138,8 +138,7 @@ h2{
     font-size: 3em;
     text-align: center;
     padding-top: 70px;
-    padding-bottom: 70px;
-    color: #ff6b97;
+    padding-bottom: 70px;;
 }
 
 .services {
@@ -165,11 +164,17 @@ h2{
     text-align: center;
     margin-bottom: 3rem;
 }
-
-.price{
-    font-size: 2.4em;
-    font-weight: bold;
-    color: #FF0072;
+.more-info{
+    background-color:#ff6b97;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.more-info__link{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.more-info__link:hover{
+    color: black;
 }
 .services__img { 
     border-radius: 10px;  
@@ -191,7 +196,6 @@ h2{
     margin-bottom: 2.5rem;
 }
 .title-bio h2{
-    color:#ff6b97;
     font-size: 3em;
     letter-spacing: .5rem;
     font-weight: normal;
@@ -243,12 +247,26 @@ h2{
     height: 300px;
     font-size: 1.8em;
     padding: 10px;
+    padding-bottom: 100px;
 }
 .bio-1 h2{
-    color: #ff6b97;
     font-size: 3em;
 }
-
+.form-date{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.btn-outline-dark {
+    color: #ff6b97;
+    border-color: #ff6b97;
+    border-radius: 50px;
+}
+.btn-outline-dark:hover{
+    color: black;
+    background-color:#ff6b97;
+    border-color: #ff6b97;
+}
 
 /*FIN BIODESCODIFICACIÓN*/
 
@@ -258,8 +276,7 @@ h2{
 .testimonios-title{
     font-size: 3em;
     padding-top: 10rem;
-    text-align: center;
-    color: #ff6b97;
+    text-align: center;;
 }
 
 .carousel-inner {
@@ -279,6 +296,7 @@ h2{
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    color: black;
 }
 .carousel-item p{
     text-align: center;
@@ -297,55 +315,42 @@ h2{
 .aboutme__title {
     font-size: 3em;
     margin-top: 50px;
-    text-align: center;
-    color: #ff6b97;
+    text-align: center;;
 }
 
 .containerMain {
-    margin-top: 6rem;
-    margin-bottom: 10rem;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
-
-.container__item {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    text-align: justify;
-    width: 50%;
-    font-size: 1.6em;
+.accordion{
+    width: 40%;
 }
-.container__item a{
-    color: black;
-}
-.container__item h2{
+.accordion-button{
     color: #ff6b97;
-}
-
-
-.container__item2__img {
-    width: 350px;
-    max-width: 100%;
-}
-
-.button {
-    margin-top: 1rem;
-    margin-left: 15rem;
-    margin-bottom: 5rem;
     font-size: 1em;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #ff6b97;
+    outline: 0;
+    box-shadow: 0 0 0 0rem;
+}
+.accordion-button:not(.collapsed) {
+    color: #ff6b97;
+    background-color: #e7f1ff;
+}
+    
+.accordion-body{
+    font-size: 2em;
+    font-weight: 100;
     letter-spacing: 2px;
-    display: inline-block;
-    text-align: center;
-    padding: 0.5em 1em;
-    border: 2px solid #ff6b97;
-    border-radius: 10px;
-    position: relative;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+}
+
+.container__item2_img {
+    max-width: 80%;
 }
 
 /*FIN SOBRE MI*/
@@ -425,38 +430,28 @@ h2{
     text-align: justify;
     font-size: 1.5em;
 }
-
-.button-blog {
-    margin-top: 2.5rem;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 13px;
-    letter-spacing: 1px;
-    display: inline-block;
-    text-align: center;
-    padding: 0.5em 1em;
-    border: 2px solid #ff6b97;
-    border-radius: 7px;
-    position: relative;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-    color: #FF0072;
-    text-decoration: none;
-    transition: 0.3s ease all;
-    z-index: 1;
+.btn-dark {
+    width: 100px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border-color: #ff6b97;
+    border-radius: 10px;
 }
-.button-blog a{
-    color: black;
+.btn-dark:hover {
+    color: #000;
+    border-color: #ff6b97 ;
+    background-color: #ff6b97;
 }
-
 /*FIN BLOG*/
 
 /*CONTACTO*/
 
 .contact-title {
-    display: flex;
     margin-top: 10rem;
     margin-bottom: 5rem ;
-    justify-content: center;
+    text-align: center;
     color: #ff6b97
 }
 
@@ -516,6 +511,12 @@ label {
     justify-content: center;
     gap: 1.5rem;
     font-size: 2em;
+}
+.footer__info h2{
+    color: white;
+}
+.footer__redes h2{
+    color: white;
 }
 .footer__logo{
     display: flex;
@@ -591,31 +592,6 @@ label {
         height: 200px;
         width: 300px;
     }
-    .grid-testimonios{
-        height: min-content;
-    }
-    .testimonio1{
-        grid-row: 1;
-        grid-column: 1 / 4;
-
-    }
-    .testimonio1 img{
-        width: 150px;
-    }
-    .testimonio2{
-        grid-row: 2;
-        grid-column: 1 / 4;
-    }
-    .testimonio2 img{
-        width: 150px;
-    }
-    .testimonio3{
-        grid-row: 3;
-        grid-column: 1 / 4;
-    }
-    .testimonio3 img{
-        width: 150px;
-    }
     .testimonios-title{
         font-size: 3em;
         margin-top: 4rem;
@@ -654,6 +630,13 @@ label {
     }
 }
 @media screen and (max-width: 600px){
+    .containerMain{
+        justify-content: start;
+    }
+    .accordion-item{
+        width: 100vw;
+    }
+    
     form{
         text-align: center;
         width: 100%;
@@ -691,13 +674,11 @@ label {
     .reserve-form{
         width: 100%;
     }
-    /* .row .mb-3{
-        width: 100%;
+    .form-date{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
     }
-    .col-sm-10-mb-10{
-        width: 100%;
-    } */
-
     .form-control{
         width: 80%;
     }
