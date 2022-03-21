@@ -1,0 +1,127 @@
+/*IMAGEN GRANDE*/
+.container__index {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/GEH-10.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h1 {
+        text-shadow: 10px 10px 10px black;
+        color: white;
+    }
+
+    & p {
+        text-shadow: 10px 10px 10px black;
+        font-family: Montserrat;
+        color: white;
+    }
+
+}
+
+/*FIN IMAGEN GRANDE*/
+
+/*SERVICIOS*/
+.title__services {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    ;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+
+    & .bio {
+        display: flex;
+        flex-direction: column;
+        max-width: min-content;
+        gap: 5rem;
+        text-align: center;
+
+        & div h2 {
+            font-size: 2em;
+            margin-bottom: 3rem;
+        }
+
+        & div p {
+            font-size: 1.4em;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        & div .more-info {
+            background-color: #ff6b97;
+            max-width: 100%;
+            border-radius: 10px;
+
+            &__link {
+                font-size: 1.5em;
+                font-weight: 100;
+
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+
+        picture .services__img {
+            border-radius: 10px;
+            height: 250px;
+            width: 350px;
+        }
+    }
+
+}
+
+/*FIN SERVICIOS*/
+
+/*TESTIMONIOS*/
+
+.testimonios-title {
+    font-size: 3em;
+    padding-top: 10rem;
+    text-align: center;
+    ;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+
+    .carousel-item {
+        margin-right: 0%;
+        width: 60%;
+        position: relative;
+        display: none;
+        text-align: center;
+
+        & h2 {
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+            color: black;
+        }
+
+        & p {
+            text-align: center;
+            padding: 2rem;
+            font-size: 1.3em;
+        }
+
+        & img {
+            width: 200px;
+            margin-top: 5rem;
+        }
+    }
+}
+
+/*FIN TESTIMONIOS*/

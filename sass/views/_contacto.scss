@@ -1,0 +1,50 @@
+/*CONTACTO*/
+
+.contact-title {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #ff6b97
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-around;
+
+    .contact-form {
+        font-size: 1.5rem;
+        border: 2px solid crimson;
+        width: 300px;
+        border-radius: 10px;
+        margin-bottom: 5rem;
+        padding: 1rem 1rem;
+
+        & div label {
+            display: block;
+            padding: 5px
+        }
+
+        & div textarea {
+            padding: 5px;
+            border: 1px solid rgb(202, 190, 190);
+            border-radius: 10px;
+        }
+
+        & div .form-control {
+            border: 1px solid rgb(202, 190, 190);
+            border-radius: 8px;
+            background-color: inherit;
+        }
+
+        & div .btn-primary {
+            color: #fff;
+            background-color: #ff6b97;
+            border-color: #ff6b97;
+        }
+
+    }
+
+
+}
+
+/*FIN CONTACTO*/

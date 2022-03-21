@@ -1,0 +1,56 @@
+/*FOOTER*/
+
+.footer{
+    background-image: linear-gradient(to right top, #ff61a8, #ff64a2, #ff689c, #ff6b97, #ff6f92, #ff758a, #ff7b83, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);    
+    color: white;
+    bottom: 0;
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        font-size: 2em;
+        & h2{
+            color: white;
+        }
+    }
+    &__redes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        align-items: center;
+        gap: 3rem;
+        font-size: 1.8em;
+        & h2{
+            color: white;
+        }
+        .logos{
+            letter-spacing: 1rem;
+        }
+        & a i{
+            font-size: 35px;
+            color: white;
+            gap:3rem;
+        }
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        font-family: amsterdam;
+        font-size: 3em;
+    }
+    & div a:hover{
+        color: black;
+    }
+    & div a i:hover{
+        color: black;
+    }
+    
+}
+
+/*FIN FOOTER*/

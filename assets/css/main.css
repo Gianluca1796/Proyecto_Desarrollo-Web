@@ -1,0 +1,503 @@
+@charset "UTF-8";
+/*NORMALIZE*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
+/*Estilos globales*/
+body {
+  line-height: 1;
+  font-family: 'montserrat','Sans-serif';
+  width: 100vw; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+img {
+  width: 100%; }
+
+h1 {
+  font-weight: bold; }
+
+h2 {
+  font-weight: bold;
+  color: #ff6b97; }
+
+/*PARTIALS*/
+/*FOOTER*/
+.footer {
+  background-image: linear-gradient(to right top, #ff61a8, #ff64a2, #ff689c, #ff6b97, #ff6f92, #ff758a, #ff7b83, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);
+  color: white;
+  bottom: 0;
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 2em; }
+    .footer__info h2 {
+      color: white; }
+  .footer__redes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.8em; }
+    .footer__redes h2 {
+      color: white; }
+    .footer__redes .logos {
+      letter-spacing: 1rem; }
+    .footer__redes a i {
+      font-size: 35px;
+      color: white;
+      gap: 3rem; }
+  .footer__logo {
+    display: flex;
+    align-items: center;
+    font-family: amsterdam;
+    font-size: 3em; }
+  .footer div a:hover {
+    color: black; }
+  .footer div a i:hover {
+    color: black; }
+
+/*FIN FOOTER*/
+/*HEADER & NAVBAR*/
+.flex-header {
+  display: flex;
+  background-image: linear-gradient(to right top, #ff61a8, #ff64a2, #ff689c, #ff6b97, #ff6f92, #ff758a, #ff7b83, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .flex-header .navbar__logo {
+    display: flex;
+    justify-content: left;
+    font-family: Amsterdam;
+    font-size: 3em;
+    max-width: 100%;
+    padding-left: 6rem;
+    padding-top: 3rem; }
+    .flex-header .navbar__logo a {
+      color: white; }
+      .flex-header .navbar__logo a:hover {
+        color: black; }
+  .flex-header .navbar__list {
+    max-width: 100%; }
+    .flex-header .navbar__list ul {
+      list-style-type: none;
+      display: flex;
+      padding: 40px;
+      gap: 6rem;
+      max-width: 100%;
+      flex-wrap: wrap; }
+      .flex-header .navbar__list ul .navbar__list__item a {
+        font-size: 1.8em;
+        color: white; }
+        .flex-header .navbar__list ul .navbar__list__item a:hover {
+          color: black; }
+      .flex-header .navbar__list ul .navbar__list__item ul {
+        display: none;
+        position: absolute;
+        max-width: 25rem;
+        background-image: linear-gradient(to bottom, #ff748c, #ff748c, #ff748c, #ff748c, #ff748c, #ff7887, #ff7c82, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);
+        list-style-type: none;
+        color: white;
+        z-index: 2; }
+        .flex-header .navbar__list ul .navbar__list__item ul .li1 {
+          padding-top: 2rem;
+          padding-bottom: 2rem; }
+        .flex-header .navbar__list ul .navbar__list__item ul .li2 {
+          padding-top: 2rem; }
+      .flex-header .navbar__list ul .navbar__list__item:hover > ul {
+        display: block; }
+      .flex-header .navbar__list ul .list__item--active {
+        border-bottom: 1px solid #fff; }
+
+/*FIN HEADER & NAVBAR*/
+/*VIEWS*/
+/*SECCIÓN BIODESCODIFICACIÓN Y PROGRAMA DE CREENCIAS*/
+.title-bio {
+  padding-top: 7rem;
+  text-align: center;
+  padding-bottom: 2rem; }
+  .title-bio h1 {
+    font-family: amsterdam;
+    color: #ff6b97;
+    font-size: 3em;
+    margin-bottom: 2.5rem; }
+  .title-bio h2 {
+    font-size: 3em;
+    letter-spacing: .5rem;
+    font-weight: normal; }
+  .title-bio h3 {
+    font-size: 3em; }
+
+.bio-1 {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffe9e8;
+  width: 100%; }
+  .bio-1 .bio-text {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    max-width: 35%; }
+    .bio-1 .bio-text h2 {
+      color: #ff6b97;
+      font-size: 3em; }
+    .bio-1 .bio-text h3 {
+      font-weight: 500;
+      color: #ff6b97; }
+    .bio-1 .bio-text p {
+      font-size: 1.3em;
+      text-align: justify; }
+  .bio-1 .bio-1-img {
+    max-width: 30%; }
+    .bio-1 .bio-1-img img {
+      max-width: 100%; }
+  .bio-1 .bio-1-img2 {
+    max-width: 40%; }
+    .bio-1 .bio-1-img2 img {
+      max-width: 100%; }
+  .bio-1 h2 {
+    font-size: 3em; }
+
+.reserve {
+  justify-content: center;
+  gap: 150px;
+  height: 300px;
+  font-size: 1.8em;
+  padding: 10px;
+  padding-bottom: 100px; }
+  .reserve .form-date {
+    display: flex;
+    flex-direction: column;
+    gap: 50px; }
+    .reserve .form-date .btn-outline-dark {
+      color: #ff6b97;
+      border-color: #ff6b97;
+      border-radius: 50px; }
+      .reserve .form-date .btn-outline-dark:hover {
+        color: black;
+        background-color: #ff6b97;
+        border-color: #ff6b97; }
+
+/*SECCIÓN BIODESCODIFICACIÓN Y PROGRAMA DE CREENCIAS*/
+.grid-blog {
+  display: grid;
+  grid-row-gap: 3rem;
+  grid-template-columns: 3fr 1fr 1fr 1fr 3fr;
+  grid-template-rows: 1fr 200px 200px 200px; }
+  .grid-blog h1 {
+    grid-column: 3;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    color: #ff6b97; }
+  .grid-blog .blog-article1 {
+    grid-row: 2;
+    grid-column: 1 / 4;
+    padding: 2rem 2rem;
+    border: 3px solid coral;
+    border-radius: 10px;
+    margin-left: 5rem; }
+    .grid-blog .blog-article1 h2 {
+      font-size: 2.5em;
+      color: #ff6b97; }
+    .grid-blog .blog-article1 p {
+      font-size: 1.5em; }
+    .grid-blog .blog-article1 .btn-dark {
+      width: 100px;
+      font-size: 1.5em;
+      font-weight: 500;
+      color: #000;
+      background-color: #fff;
+      border-color: #ff6b97;
+      border-radius: 10px; }
+      .grid-blog .blog-article1 .btn-dark:hover {
+        color: #000;
+        border-color: #ff6b97;
+        background-color: #ff6b97; }
+  .grid-blog .blog-article2 {
+    grid-row: 3;
+    grid-column: 1 / 4;
+    padding: 2rem 2rem;
+    border: 3px solid coral;
+    border-radius: 10px;
+    margin-left: 5rem; }
+    .grid-blog .blog-article2 h2 {
+      font-size: 2.5em;
+      color: #ff6b97; }
+    .grid-blog .blog-article2 p {
+      font-size: 1.5em; }
+    .grid-blog .blog-article2 .btn-dark {
+      width: 100px;
+      font-size: 1.5em;
+      font-weight: 500;
+      color: #000;
+      background-color: #fff;
+      border-color: #ff6b97;
+      border-radius: 10px; }
+      .grid-blog .blog-article2 .btn-dark:hover {
+        color: #000;
+        border-color: #ff6b97;
+        background-color: #ff6b97; }
+  .grid-blog .blog-aside {
+    grid-row: 2 /4;
+    grid-column: 5;
+    margin-right: 5rem; }
+    .grid-blog .blog-aside h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 3rem;
+      color: #ff6b97; }
+    .grid-blog .blog-aside__text {
+      border: 3px solid coral;
+      border-radius: 10px;
+      padding: 1.8rem;
+      text-align: justify;
+      font-size: 1.5em; }
+
+/*FIN BLOG*/
+/*CONTACTO*/
+.contact-title {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #ff6b97; }
+
+.contact-main {
+  display: flex;
+  justify-content: space-around; }
+  .contact-main .contact-form {
+    font-size: 1.5rem;
+    border: 2px solid crimson;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+    padding: 1rem 1rem; }
+    .contact-main .contact-form div label {
+      display: block;
+      padding: 5px; }
+    .contact-main .contact-form div textarea {
+      padding: 5px;
+      border: 1px solid #cabebe;
+      border-radius: 10px; }
+    .contact-main .contact-form div .form-control {
+      border: 1px solid #cabebe;
+      border-radius: 8px;
+      background-color: inherit; }
+    .contact-main .contact-form div .btn-primary {
+      color: #fff;
+      background-color: #ff6b97;
+      border-color: #ff6b97; }
+
+/*FIN CONTACTO*/
+/*IMAGEN GRANDE*/
+.container__index {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/GEH-10.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .container__index h1 {
+    text-shadow: 10px 10px 10px black;
+    color: white; }
+  .container__index p {
+    text-shadow: 10px 10px 10px black;
+    font-family: Montserrat;
+    color: white; }
+
+/*FIN IMAGEN GRANDE*/
+/*SERVICIOS*/
+.title__services {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10rem; }
+  .services .bio {
+    display: flex;
+    flex-direction: column;
+    max-width: min-content;
+    gap: 5rem;
+    text-align: center; }
+    .services .bio div h2 {
+      font-size: 2em;
+      margin-bottom: 3rem; }
+    .services .bio div p {
+      font-size: 1.4em;
+      text-align: center;
+      margin-bottom: 3rem; }
+    .services .bio div .more-info {
+      background-color: #ff6b97;
+      max-width: 100%;
+      border-radius: 10px; }
+      .services .bio div .more-info__link {
+        font-size: 1.5em;
+        font-weight: 100; }
+        .services .bio div .more-info__link:hover {
+          color: black; }
+    .services .bio picture .services__img {
+      border-radius: 10px;
+      height: 250px;
+      width: 350px; }
+
+/*FIN SERVICIOS*/
+/*TESTIMONIOS*/
+.testimonios-title {
+  font-size: 3em;
+  padding-top: 10rem;
+  text-align: center; }
+
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 500px; }
+  .carousel-inner .carousel-item {
+    margin-right: 0%;
+    width: 60%;
+    position: relative;
+    display: none;
+    text-align: center; }
+    .carousel-inner .carousel-item h2 {
+      text-align: center;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      color: black; }
+    .carousel-inner .carousel-item p {
+      text-align: center;
+      padding: 2rem;
+      font-size: 1.3em; }
+    .carousel-inner .carousel-item img {
+      width: 200px;
+      margin-top: 5rem; }
+
+/*FIN TESTIMONIOS*/
+/*SECCIÓN BIODESCODIFICACIÓN Y PROGRAMA DE CREENCIAS*/
+.title-bio {
+  padding-top: 7rem;
+  text-align: center;
+  padding-bottom: 2rem; }
+  .title-bio h1 {
+    font-family: amsterdam;
+    color: #ff6b97;
+    font-size: 3em;
+    margin-bottom: 2.5rem; }
+  .title-bio h2 {
+    font-size: 3em;
+    letter-spacing: .5rem;
+    font-weight: normal; }
+  .title-bio h3 {
+    font-size: 3em; }
+
+.bio-1 {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffe9e8;
+  width: 100%; }
+  .bio-1 .bio-text {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    max-width: 35%; }
+    .bio-1 .bio-text h2 {
+      color: #ff6b97;
+      font-size: 3em; }
+    .bio-1 .bio-text h3 {
+      font-weight: 500;
+      color: #ff6b97; }
+    .bio-1 .bio-text p {
+      font-size: 1.3em;
+      text-align: justify; }
+  .bio-1 .bio-1-img {
+    max-width: 30%; }
+    .bio-1 .bio-1-img img {
+      max-width: 100%; }
+  .bio-1 .bio-1-img2 {
+    max-width: 40%; }
+    .bio-1 .bio-1-img2 img {
+      max-width: 100%; }
+  .bio-1 h2 {
+    font-size: 3em; }
+
+.reserve {
+  justify-content: center;
+  gap: 150px;
+  height: 300px;
+  font-size: 1.8em;
+  padding: 10px;
+  padding-bottom: 100px; }
+  .reserve .form-date {
+    display: flex;
+    flex-direction: column;
+    gap: 50px; }
+    .reserve .form-date .btn-outline-dark {
+      color: #ff6b97;
+      border-color: #ff6b97;
+      border-radius: 50px; }
+      .reserve .form-date .btn-outline-dark:hover {
+        color: black;
+        background-color: #ff6b97;
+        border-color: #ff6b97; }
+
+/*SECCIÓN BIODESCODIFICACIÓN Y PROGRAMA DE CREENCIAS*/
+/*SOBRE MI*/
+.aboutme__title {
+  font-size: 3em;
+  margin-top: 50px;
+  text-align: center; }
+
+.containerMain {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+  .containerMain .accordion {
+    width: 40%; }
+    .containerMain .accordion .accordion-item .accordion-header .accordion-button {
+      color: #ff6b97;
+      font-size: 1em; }
+      .containerMain .accordion .accordion-item .accordion-header .accordion-button:focus {
+        z-index: 3;
+        border-color: #ff6b97;
+        outline: 0;
+        box-shadow: 0 0 0 0rem; }
+      .containerMain .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+        color: #ff6b97;
+        background-color: #e7f1ff; }
+    .containerMain .accordion .accordion-item .accordion-collapse .accordion-body {
+      font-size: 2em;
+      font-weight: 100;
+      letter-spacing: 2px; }
+
+.container__item2_img {
+  max-width: 80%; }
+
+/*FIN SOBRE MI*/

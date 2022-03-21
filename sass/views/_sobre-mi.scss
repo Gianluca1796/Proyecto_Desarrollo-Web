@@ -1,0 +1,54 @@
+/*SOBRE MI*/
+
+.aboutme__title {
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.containerMain {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+    .accordion {
+        width: 40%;
+
+        & .accordion-item .accordion-header {
+            .accordion-button {
+                color: #ff6b97;
+                font-size: 1em;
+
+                &:focus {
+                    z-index: 3;
+                    border-color: #ff6b97;
+                    outline: 0;
+                    box-shadow: 0 0 0 0rem;
+                }
+
+                &:not(.collapsed) {
+                    color: #ff6b97;
+                    background-color: #e7f1ff;
+                }
+            }
+
+        }
+
+        & .accordion-item .accordion-collapse {
+            .accordion-body {
+                font-size: 2em;
+                font-weight: 100;
+                letter-spacing: 2px;
+            }
+        }
+
+    }
+}
+
+.container__item2_img { 
+    max-width: 80%;
+}
+
+/*FIN SOBRE MI*/

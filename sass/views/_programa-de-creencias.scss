@@ -1,0 +1,104 @@
+/*SECCIÓN BIODESCODIFICACIÓN Y PROGRAMA DE CREENCIAS*/
+.title-bio {
+    padding-top: 7rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+    & h1 {
+        font-family: amsterdam;
+        color: #ff6b97;
+        font-size: 3em;
+        margin-bottom: 2.5rem;
+    }
+
+    & h2 {
+        font-size: 3em;
+        letter-spacing: .5rem;
+        font-weight: normal;
+    }
+
+    & h3 {
+        font-size: 3em;
+    }
+}
+
+
+
+.bio-1 {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffe9e8;
+    width: 100%;
+
+    .bio-text {
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        max-width: 35%;
+
+        & h2 {
+            color: #ff6b97;
+            font-size: 3em;
+        }
+
+        & h3 {
+            font-weight: 500;
+            color: #ff6b97;
+        }
+
+        & p {
+            font-size: 1.3em;
+            text-align: justify;
+        }
+    }
+
+    .bio-1-img {
+        max-width: 30%;
+
+        & img {
+            max-width: 100%;
+        }
+    }
+
+    .bio-1-img2 {
+        max-width: 40%;
+
+        & img {
+            max-width: 100%;
+        }
+    }
+
+    & h2 {
+        font-size: 3em;
+    }
+}
+
+.reserve {
+    justify-content: center;
+    gap: 150px;
+    height: 300px;
+    font-size: 1.8em;
+    padding: 10px;
+    padding-bottom: 100px;
+
+    .form-date {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .btn-outline-dark {
+            color: #ff6b97;
+            border-color: #ff6b97;
+            border-radius: 50px;
+
+            &:hover {
+                color: black;
+                background-color: #ff6b97;
+                border-color: #ff6b97;
+            }
+        }
+    }
+}
+
+/*SECCIÓN BIODESCODIFICACIÓN Y PROGRAMA DE CREENCIAS*/
