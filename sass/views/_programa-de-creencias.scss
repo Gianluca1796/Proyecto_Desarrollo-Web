@@ -102,3 +102,41 @@
 }
 
 /*SECCIÓN BIODESCODIFICACIÓN Y PROGRAMA DE CREENCIAS*/
+
+/*MEDIA*/
+@media screen and (max-width: 600px){
+    .bio-1-img{
+        width: 150px;
+    }
+    .bio-1-img2{
+        width: 250px;
+    }
+    .bio-text{
+        max-width: 60%;
+    }
+    .reserve{
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        gap: 1px;
+        font-size: 1.8em;
+        width: 100%;
+        .reserve-form{
+            width: 100%;
+            & div div .form-control{
+                width: 80%;
+            }
+            & div .col-form-label{
+                text-align: left;
+            }
+            & div .form-check-label{
+                text-align: left;
+            }
+        }
+        .form-date{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+    }

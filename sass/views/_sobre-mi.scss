@@ -47,8 +47,31 @@
     }
 }
 
-.container__item2_img { 
+.container__item2_img {
     max-width: 80%;
 }
 
 /*FIN SOBRE MI*/
+
+/*MEDIA*/
+@media screen and (max-width: 1024px) {
+    .container__item2__img {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 768px){
+.container__item2{
+    width: 40%;
+}
+}
+@media screen and (max-width: 600px){
+    .containerMain{
+        justify-content: start;
+    }
+    .accordion-item{
+        width: 100vw;
+    }
+    .container__item2{
+        display: none;
+    }
+}

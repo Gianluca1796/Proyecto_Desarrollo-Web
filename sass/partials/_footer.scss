@@ -54,3 +54,16 @@
 }
 
 /*FIN FOOTER*/
+@media screen and (max-width: 600px){
+.footer{
+    height: max-content ;
+    gap: 3rem;
+    flex-direction: column;
+    .footer__logo{
+        justify-content: center;
+    }
+    .footer__redes{
+        margin:0%   
+    }
+}
+}

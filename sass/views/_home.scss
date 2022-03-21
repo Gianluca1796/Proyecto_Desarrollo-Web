@@ -101,7 +101,6 @@
         margin-right: 0%;
         width: 60%;
         position: relative;
-        display: none;
         text-align: center;
 
         & h2 {
@@ -125,3 +124,36 @@
 }
 
 /*FIN TESTIMONIOS*/
+
+/*MEDIA*/
+@media screen and (max-width: 1024px) {
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+
+        & .bio {
+            display: flex;
+            align-items: center;
+
+            & div h2 {
+                font-size: 1.8em;
+            }
+
+            & picture .services__img {
+                height: 200px;
+                width: 300px;
+            }
+        }
+    }
+    .testimonios-title {
+        font-size: 3em;
+        margin-top: 4rem;
+    }
+
+
+
+}
