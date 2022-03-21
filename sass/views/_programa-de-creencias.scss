@@ -105,14 +105,15 @@
 
 /*MEDIA*/
 @media screen and (max-width: 600px){
+
     .bio-1-img{
-        width: 150px;
+        display: none;
     }
     .bio-1-img2{
-        width: 250px;
+        display: none;
     }
-    .bio-text{
-        max-width: 60%;
+    .bio-1 .bio-text{
+        max-width: 100%;
     }
     .reserve{
         flex-direction: column;
