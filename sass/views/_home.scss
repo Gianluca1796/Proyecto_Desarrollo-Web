@@ -6,13 +6,7 @@
     background-image: url(../images/GEH-10.jpg);
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
 
-    & h1 {
-        text-shadow: 10px 10px 10px black;
-        color: white;
-    }
 
     & p {
         text-shadow: 10px 10px 10px black;
@@ -41,11 +35,24 @@
     & .bio {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         max-width: min-content;
         gap: 5rem;
         text-align: center;
 
-        & div h2 {
+        .ab{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 50%;
+        }
+
+
+        & .sesion-bio h2 {
+            font-size: 2em;
+
+        }
+        & .prog-titulo h2{
             font-size: 2em;
             margin-bottom: 3rem;
         }

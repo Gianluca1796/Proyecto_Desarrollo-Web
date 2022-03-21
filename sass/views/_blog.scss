@@ -35,6 +35,9 @@
 
         & p {
             font-size: 1.5em;
+            span{
+                font-weight: bold;
+            }
         }
 
         .btn-dark {
@@ -73,6 +76,9 @@
 
         & p {
             font-size: 1.5em;
+            span{
+                font-weight: bold;
+            }
         }
 
         .btn-dark {
@@ -110,6 +116,7 @@
             padding: 1.8rem;
             text-align: justify;
             font-size: 1.5em;
+            font-weight: bold;
         }
     }
 
