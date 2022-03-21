@@ -1,0 +1,80 @@
+/*HEADER & NAVBAR*/
+.flex-header {
+    display: flex;
+    background-image: linear-gradient(to right top, #ff61a8, #ff64a2, #ff689c, #ff6b97, #ff6f92, #ff758a, #ff7b83, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .navbar__logo {
+        display: flex;
+        justify-content: left;
+        font-family: Amsterdam;
+        font-size: 3em;
+        max-width: 100%;
+        padding-left: 6rem;
+        padding-top: 3rem;
+
+        & a {
+            color: white;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+
+    .navbar__list {
+        max-width: 100%;
+
+        & ul {
+            list-style-type: none;
+            display: flex;
+            padding: 40px;
+            gap: 6rem;
+            max-width: 100%;
+            flex-wrap: wrap;
+
+            .navbar__list__item {
+                & a {
+                    font-size: 1.8em;
+                    color: white;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+                & ul {
+                    display: none;
+                    position: absolute;
+                    max-width: 25rem;
+                    background-image: linear-gradient(to bottom, #ff748c, #ff748c, #ff748c, #ff748c, #ff748c, #ff7887, #ff7c82, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);
+                    list-style-type: none;
+                    color: white;
+                    z-index: 2;
+                    & .li1 {
+                        padding-top: 2rem;
+                        padding-bottom: 2rem;
+                    }
+                    & .li2 {
+                        padding-top: 2rem;
+                    }
+                }
+                &:hover>ul {
+                    display: block;
+                }
+
+
+            }
+
+            .list__item--active {
+                border-bottom: 1px solid #fff;
+            }
+
+        }
+
+    }
+
+
+}
+/*FIN HEADER & NAVBAR*/
