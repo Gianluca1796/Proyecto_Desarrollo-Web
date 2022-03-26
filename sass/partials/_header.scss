@@ -1,14 +1,12 @@
 /*HEADER & NAVBAR*/
 .flex-header {
-    display: flex;
+    @include flex(row, space-between,none);
     background-image: linear-gradient(to right top, #ff61a8, #ff64a2, #ff689c, #ff6b97, #ff6f92, #ff758a, #ff7b83, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);
     width: 100%;
-    justify-content: space-between;
     flex-wrap: wrap;
 
     .navbar__logo {
-        display: flex;
-        justify-content: left;
+        @include flex(row, left,none);
         font-family: Amsterdam;
         font-size: 3em;
         max-width: 100%;
@@ -72,6 +70,7 @@
             }
 
             .list__item--active {
+                @extend .navbar__list__item;
                 border-bottom: 1px solid #fff;
             }
 

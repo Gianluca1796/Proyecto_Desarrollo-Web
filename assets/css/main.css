@@ -31,6 +31,9 @@ h2 {
   font-weight: bold;
   color: #ff6b97; }
 
+/*HELPERS*/
+/*HELPERS*/
+/*VARIABLES*/
 /*PARTIALS*/
 /*FOOTER*/
 .footer {
@@ -40,12 +43,14 @@ h2 {
   height: 25rem;
   width: 100%;
   display: flex;
-  justify-content: space-evenly; }
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: none; }
   .footer__info {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
     font-size: 2em; }
     .footer__info h2 {
@@ -53,8 +58,9 @@ h2 {
   .footer__redes {
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    justify-content: none;
     align-items: center;
+    margin-top: 5rem;
     gap: 3rem;
     font-size: 1.8em; }
     .footer__redes h2 {
@@ -67,6 +73,8 @@ h2 {
       gap: 3rem; }
   .footer__logo {
     display: flex;
+    flex-direction: none;
+    justify-content: none;
     align-items: center;
     font-family: amsterdam;
     font-size: 3em; }
@@ -93,13 +101,17 @@ h2 {
 /*HEADER & NAVBAR*/
 .flex-header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
   background-image: linear-gradient(to right top, #ff61a8, #ff64a2, #ff689c, #ff6b97, #ff6f92, #ff758a, #ff7b83, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);
   width: 100%;
-  justify-content: space-between;
   flex-wrap: wrap; }
   .flex-header .navbar__logo {
     display: flex;
+    flex-direction: row;
     justify-content: left;
+    align-items: none;
     font-family: Amsterdam;
     font-size: 3em;
     max-width: 100%;
@@ -118,12 +130,12 @@ h2 {
       gap: 6rem;
       max-width: 100%;
       flex-wrap: wrap; }
-      .flex-header .navbar__list ul .navbar__list__item a {
+      .flex-header .navbar__list ul .navbar__list__item a, .flex-header .navbar__list ul .list__item--active a {
         font-size: 1.8em;
         color: white; }
-        .flex-header .navbar__list ul .navbar__list__item a:hover {
+        .flex-header .navbar__list ul .navbar__list__item a:hover, .flex-header .navbar__list ul .list__item--active a:hover {
           color: black; }
-      .flex-header .navbar__list ul .navbar__list__item ul {
+      .flex-header .navbar__list ul .navbar__list__item ul, .flex-header .navbar__list ul .list__item--active ul {
         display: none;
         position: absolute;
         max-width: 25rem;
@@ -131,12 +143,12 @@ h2 {
         list-style-type: none;
         color: white;
         z-index: 2; }
-        .flex-header .navbar__list ul .navbar__list__item ul .li1 {
+        .flex-header .navbar__list ul .navbar__list__item ul .li1, .flex-header .navbar__list ul .list__item--active ul .li1 {
           padding-top: 2rem;
           padding-bottom: 2rem; }
-        .flex-header .navbar__list ul .navbar__list__item ul .li2 {
+        .flex-header .navbar__list ul .navbar__list__item ul .li2, .flex-header .navbar__list ul .list__item--active ul .li2 {
           padding-top: 2rem; }
-      .flex-header .navbar__list ul .navbar__list__item:hover > ul {
+      .flex-header .navbar__list ul .navbar__list__item:hover > ul, .flex-header .navbar__list ul .list__item--active:hover > ul {
         display: block; }
       .flex-header .navbar__list ul .list__item--active {
         border-bottom: 1px solid #fff; }
@@ -180,12 +192,16 @@ h2 {
 .bio-1 {
   padding: 4rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+  align-items: none;
   background-color: #ffe9e8;
   width: 100%; }
   .bio-1 .bio-text {
     display: flex;
     flex-direction: column;
+    justify-content: none;
+    align-items: none;
     gap: .8rem;
     max-width: 35%; }
     .bio-1 .bio-text h2 {
@@ -209,7 +225,10 @@ h2 {
     font-size: 3em; }
 
 .reserve {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: none;
   gap: 150px;
   height: 300px;
   font-size: 1.8em;
@@ -218,6 +237,8 @@ h2 {
   .reserve .form-date {
     display: flex;
     flex-direction: column;
+    justify-content: none;
+    align-items: none;
     gap: 50px; }
     .reserve .form-date .btn-outline-dark {
       color: #ff6b97;
@@ -383,7 +404,9 @@ h2 {
 
 .contact-main {
   display: flex;
-  justify-content: space-around; }
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: none; }
   .contact-main .contact-form {
     font-size: 1.5rem;
     border: 2px solid crimson;
@@ -446,12 +469,15 @@ h2 {
 
 .services {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+  align-items: none;
   gap: 10rem; }
   .services .bio {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: none;
     max-width: min-content;
     gap: 5rem;
     text-align: center; }
@@ -459,6 +485,7 @@ h2 {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      align-items: none;
       height: 50%; }
     .services .bio .sesion-bio h2 {
       font-size: 2em; }
@@ -492,7 +519,9 @@ h2 {
 
 .carousel-inner {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: none;
   position: relative;
   height: 500px; }
   .carousel-inner .carousel-item {
@@ -555,12 +584,16 @@ h2 {
 .bio-1 {
   padding: 4rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+  align-items: none;
   background-color: #ffe9e8;
   width: 100%; }
   .bio-1 .bio-text {
     display: flex;
     flex-direction: column;
+    justify-content: none;
+    align-items: none;
     gap: .8rem;
     max-width: 35%; }
     .bio-1 .bio-text h2 {
@@ -584,7 +617,10 @@ h2 {
     font-size: 3em; }
 
 .reserve {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: none;
   gap: 150px;
   height: 300px;
   font-size: 1.8em;
@@ -593,6 +629,8 @@ h2 {
   .reserve .form-date {
     display: flex;
     flex-direction: column;
+    justify-content: none;
+    align-items: none;
     gap: 50px; }
     .reserve .form-date .btn-outline-dark {
       color: #ff6b97;
@@ -641,7 +679,9 @@ h2 {
 .containerMain {
   max-width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
+  align-items: none;
   margin-top: 10rem;
   margin-bottom: 10rem; }
   .containerMain .accordion {

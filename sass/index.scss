@@ -2,6 +2,12 @@
 
 @import './misc/normalize';
 
+/*HELPERS*/
+@import './misc/mixinx';
+
+/*VARIABLES*/
+@import './misc/variables';
+
 /*PARTIALS*/
 @import './partials/footer';
 @import './partials/header';

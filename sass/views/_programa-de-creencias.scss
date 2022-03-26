@@ -26,14 +26,12 @@
 
 .bio-1 {
     padding: 4rem;
-    display: flex;
-    justify-content: space-evenly;
+    @include flex(row, space-evenly, none);
     background-color: #ffe9e8;
     width: 100%;
 
     .bio-text {
-        display: flex;
-        flex-direction: column;
+        @include flex(column, none, none);
         gap: .8rem;
         max-width: 35%;
 
@@ -75,7 +73,7 @@
 }
 
 .reserve {
-    justify-content: center;
+    @include flex(row, center, none);
     gap: 150px;
     height: 300px;
     font-size: 1.8em;
@@ -83,8 +81,7 @@
     padding-bottom: 100px;
 
     .form-date {
-        display: flex;
-        flex-direction: column;
+        @include flex(column, none, none);
         gap: 50px;
 
         .btn-outline-dark {

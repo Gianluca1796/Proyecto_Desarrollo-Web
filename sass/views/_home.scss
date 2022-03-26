@@ -28,22 +28,17 @@
 }
 
 .services {
-    display: flex;
-    justify-content: space-evenly;
+    @include flex(row, space-evenly, none);
     gap: 10rem;
 
     & .bio {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        @include flex(column, space-between, none);
         max-width: min-content;
         gap: 5rem;
         text-align: center;
 
         .ab{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            @include flex(column, space-between, none);
             height: 50%;
         }
 
@@ -99,8 +94,7 @@
 }
 
 .carousel-inner {
-    display: flex;
-    justify-content: center;
+    @include flex(row, center, none);
     position: relative;
     height: 500px;
 

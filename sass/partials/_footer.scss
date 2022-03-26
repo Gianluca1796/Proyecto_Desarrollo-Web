@@ -6,13 +6,9 @@
     bottom: 0;
     height: 25rem;
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    @include flex(row, space-evenly,none);
     &__info{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        @include flex(column, center, center);
         gap: 1.5rem;
         font-size: 2em;
         & h2{
@@ -20,10 +16,8 @@
         }
     }
     &__redes{
-        display: flex;
-        flex-direction: column;
+        @include flex(column, none, center);
         margin-top: 5rem;
-        align-items: center;
         gap: 3rem;
         font-size: 1.8em;
         & h2{
@@ -39,8 +33,7 @@
         }
     }
     &__logo{
-        display: flex;
-        align-items: center;
+        @include flex(none,none,center);
         font-family: amsterdam;
         font-size: 3em;
     }

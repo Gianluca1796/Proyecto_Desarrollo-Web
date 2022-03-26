@@ -16,15 +16,15 @@
     }
 
     .blog-article1 {
-        display:flex;
-        flex-direction: column;
-        justify-content:space-between;
+        display:map-get($cards, display);
+        flex-direction:map-get($cards, direccion);
+        justify-content:map-get($cards, espaciado );
         grid-row: 2;
         grid-column: 1 / 4;
         padding: 2rem 2rem;
-        border: 3px solid coral;
-        border-radius: 10px;
-        margin-left: 5rem;
+        border:map-get($cards, borde);
+        border-radius:map-get($cards, radio);
+        margin-left:map-get($cards, margenizq);
 
 
 
@@ -59,15 +59,15 @@
     }
 
     .blog-article2 {
-        display:flex;    
-        flex-direction: column;
-        justify-content:space-between;
+        display:map-get($cards, display);
+        flex-direction:map-get($cards, direccion);
+        justify-content:map-get($cards, espaciado );
         grid-row: 3;
         grid-column: 1 / 4;
         padding: 2rem 2rem;
-        border: 3px solid coral;
-        border-radius: 10px;
-        margin-left: 5rem;
+        border:map-get($cards, borde);
+        border-radius:map-get($cards, radio);
+        margin-left:map-get($cards, margenizq);
 
         & h2 {
             font-size: 2.5em;

@@ -8,8 +8,7 @@
 
 .containerMain {
     max-width: 100%;
-    display: flex;
-    justify-content: space-around;
+    @include flex(row, space-around, none);
     margin-top: 10rem;
     margin-bottom: 10rem;
 
