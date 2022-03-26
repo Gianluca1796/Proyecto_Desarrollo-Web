@@ -5,15 +5,14 @@
     background-size: cover;
     background-image: url(../images/GEH-10.jpg);
     height: 100vh;
-    display: flex;
+    @include flex(none, center, center);
 
 
-    & p {
+    & h1 {
         text-shadow: 10px 10px 10px black;
         font-family: Montserrat;
         color: white;
     }
-
 }
 
 /*FIN IMAGEN GRANDE*/

@@ -453,8 +453,11 @@ h2 {
   background-size: cover;
   background-image: url(../images/GEH-10.jpg);
   height: 100vh;
-  display: flex; }
-  .container__index p {
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center; }
+  .container__index h1 {
     text-shadow: 10px 10px 10px black;
     font-family: Montserrat;
     color: white; }
@@ -674,7 +677,8 @@ h2 {
 .aboutme__title {
   font-size: 3em;
   margin-top: 50px;
-  text-align: center; }
+  text-align: center;
+  color: #ff6b97; }
 
 .containerMain {
   max-width: 100%;
