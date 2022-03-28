@@ -654,8 +654,10 @@ h2 {
   .bio-1 .bio-text {
     max-width: 100%; }
   .reserve {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: none;
     align-items: stretch;
     gap: 1px;
     font-size: 1.8em;

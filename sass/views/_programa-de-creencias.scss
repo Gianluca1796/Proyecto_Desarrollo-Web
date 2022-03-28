@@ -113,8 +113,7 @@
         max-width: 100%;
     }
     .reserve{
-        flex-direction: column;
-        justify-content: center;
+        @include flex( row, center, none);
         align-items: stretch;
         gap: 1px;
         font-size: 1.8em;
