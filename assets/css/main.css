@@ -81,7 +81,7 @@ h2 {
     flex-direction: none;
     justify-content: none;
     align-items: center;
-    font-family: 'Amsterdam Four';
+    font-family: amsterdam,cursive;
     font-size: 3em; }
   .footer div a:hover {
     color: black; }
@@ -117,7 +117,7 @@ h2 {
     flex-direction: row;
     justify-content: left;
     align-items: none;
-    font-family: 'Amsterdam Four', cursive;
+    font-family: amsterdam,cursive;
     font-weight: 100;
     font-size: 3em;
     max-width: 100%;
@@ -184,7 +184,7 @@ h2 {
   text-align: center;
   padding-bottom: 2rem; }
   .title-bio h1 {
-    font-family: 'Amsterdam Four', cursive;
+    font-family: amsterdam, cursive;
     color: #ff6b97;
     font-size: 3em;
     margin-bottom: 2.5rem; }
@@ -579,7 +579,7 @@ h2 {
   text-align: center;
   padding-bottom: 2rem; }
   .title-bio h1 {
-    font-family: 'Amsterdam Four',cursive;
+    font-family: amsterdam,cursive;
     color: #ff6b97;
     font-size: 3em;
     margin-bottom: 2.5rem; }

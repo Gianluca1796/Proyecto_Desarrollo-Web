@@ -7,7 +7,7 @@
 
     .navbar__logo {
         @include flex(row, left,none);
-        font-family: 'Amsterdam Four', cursive;
+        font-family: amsterdam,cursive;
         font-weight:100;
         font-size: 3em;
         max-width: 100%;
