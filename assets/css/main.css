@@ -2,8 +2,8 @@
 /*NORMALIZE*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
 @font-face {
-  font-family: Amsterdam;
-  src: url(/assets/fuentes/Amsterdam-Personal-Use.ttf); }
+  font-family: 'amsterdam';
+  src: url(../assets/fuentes/Amsterdam-Personal-Use.ttf); }
 
 /*Estilos globales*/
 body {
@@ -79,7 +79,7 @@ h2 {
     flex-direction: none;
     justify-content: none;
     align-items: center;
-    font-family: amsterdam;
+    font-family: 'amsterdam';
     font-size: 3em; }
   .footer div a:hover {
     color: black; }
@@ -115,7 +115,8 @@ h2 {
     flex-direction: row;
     justify-content: left;
     align-items: none;
-    font-family: Amsterdam;
+    font-family: 'amsterdam';
+    font-weight: 100;
     font-size: 3em;
     max-width: 100%;
     padding-left: 6rem;
@@ -181,7 +182,7 @@ h2 {
   text-align: center;
   padding-bottom: 2rem; }
   .title-bio h1 {
-    font-family: amsterdam;
+    font-family: 'amsterdam';
     color: #ff6b97;
     font-size: 3em;
     margin-bottom: 2.5rem; }
@@ -576,7 +577,7 @@ h2 {
   text-align: center;
   padding-bottom: 2rem; }
   .title-bio h1 {
-    font-family: amsterdam;
+    font-family: 'amsterdam';
     color: #ff6b97;
     font-size: 3em;
     margin-bottom: 2.5rem; }

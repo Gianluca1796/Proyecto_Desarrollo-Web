@@ -1,11 +1,12 @@
 @import 
-url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
-@font-face{
-    font-family: Amsterdam;
-    src:url(/assets/fuentes/Amsterdam-Personal-Use.ttf);
-}
+url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');  
+@font-face {
+    font-family: 'amsterdam';
+    src: url(../assets/fuentes/Amsterdam-Personal-Use.ttf);
+}              
 
 /*Estilos globales*/
+
 body {
     line-height: 1;
     font-family: 'montserrat','Sans-serif';
