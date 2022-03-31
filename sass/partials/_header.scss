@@ -8,11 +8,11 @@
     .navbar__logo {
         @include flex(row, left,none);
         font-family: 'Corinthia', cursive;
-        font-weight:100;
-        font-size: 6em;
+        font-size: 8em;
+        font-weight:lighter;
         max-width: 100%;
         padding-left: 6rem;
-        padding-top: 3rem;
+        padding-top: 1.5rem;
 
         & a {
             color: white;

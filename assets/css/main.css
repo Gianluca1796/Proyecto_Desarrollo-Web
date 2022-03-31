@@ -113,11 +113,11 @@ h2 {
     justify-content: left;
     align-items: none;
     font-family: 'Corinthia', cursive;
-    font-weight: 100;
-    font-size: 6em;
+    font-size: 8em;
+    font-weight: lighter;
     max-width: 100%;
     padding-left: 6rem;
-    padding-top: 3rem; }
+    padding-top: 1.5rem; }
     .flex-header .navbar__logo a {
       color: white; }
       .flex-header .navbar__logo a:hover {
@@ -182,8 +182,7 @@ h2 {
     font-family: 'Corinthia', cursive;
     color: #ff6b97;
     font-size: 6em;
-    font-weight: lighter;
-    margin-bottom: 2.5rem; }
+    font-weight: lighter; }
   .title-bio h2 {
     font-size: 3em;
     letter-spacing: .5rem;
@@ -578,8 +577,7 @@ h2 {
     font-family: 'Corinthia', cursive;
     color: #ff6b97;
     font-size: 6em;
-    font-weight: lighter;
-    margin-bottom: 2.5rem; }
+    font-weight: lighter; }
   .title-bio h2 {
     font-size: 3em;
     letter-spacing: .5rem;
