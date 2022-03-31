@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*NORMALIZE*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/amsterdam-2");
 /*Estilos globales*/
 body {
   line-height: 1;
@@ -39,7 +40,6 @@ h2 {
 .footer {
   background-image: linear-gradient(to right top, #ff61a8, #ff64a2, #ff689c, #ff6b97, #ff6f92, #ff758a, #ff7b83, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);
   color: white;
-  bottom: 0;
   height: 25rem;
   width: 100%;
   display: flex;
@@ -57,7 +57,7 @@ h2 {
       color: white; }
   .footer__redes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: none;
     align-items: center;
     margin-top: 5rem;

@@ -3,7 +3,6 @@
 .footer{
     background-image: linear-gradient(to right top, #ff61a8, #ff64a2, #ff689c, #ff6b97, #ff6f92, #ff758a, #ff7b83, #ff817d, #ff8c74, #ff996b, #ffa665, #ffb461);    
     color: white;
-    bottom: 0;
     height: 25rem;
     width: 100%;
     @include flex(row, space-evenly,none);
@@ -16,7 +15,7 @@
         }
     }
     &__redes{
-        @include flex(column, none, center);
+        @include flex(row, none, center);
         margin-top: 5rem;
         gap: 3rem;
         font-size: 1.8em;
