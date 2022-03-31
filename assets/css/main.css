@@ -62,7 +62,7 @@ h2 {
       color: white; }
   .footer__redes {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: none;
     align-items: center;
     margin-top: 5rem;

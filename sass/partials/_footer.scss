@@ -15,7 +15,7 @@
         }
     }
     &__redes{
-        @include flex(row, none, center);
+        @include flex(column, none, center);
         margin-top: 5rem;
         gap: 3rem;
         font-size: 1.8em;
