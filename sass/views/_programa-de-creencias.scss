@@ -82,12 +82,12 @@
 
     .form-date {
         @include flex(column, none, none);
-        gap: 50px;
-
         .btn-outline-dark {
             color: #ff6b97;
             border-color: #ff6b97;
             border-radius: 50px;
+            font-size: .8em;
+            margin-top: 4rem;
 
             &:hover {
                 color: black;
@@ -112,12 +112,18 @@
     .bio-1 .bio-text{
         max-width: 100%;
     }
+    .reserva-sesion{
+        padding-bottom: 10rem;
+    }
     .reserve{
-        @include flex( row, center, none);
+        @include flex( column, center, none);
         align-items: stretch;
         gap: 1px;
         font-size: 1.8em;
         width: 100%;
+            .form-check{
+        padding-bottom: 2rem;
+    }
         .reserve-form{
             width: 100%;
             & div div .form-control{
@@ -134,6 +140,10 @@
             display: flex;
             flex-direction: column;
             gap: 5px;
+            margin-top: 4rem;
+            .btn-outline-dark{
+                margin-top: 3rem;
+            }
         }
     }
     }

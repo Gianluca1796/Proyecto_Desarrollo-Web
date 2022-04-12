@@ -209,16 +209,19 @@ h2 {
   font-size: 1.8em;
   padding: 10px;
   padding-bottom: 100px; }
+  .reserve .form-check {
+    padding-bottom: 2rem; }
   .reserve .form-date {
     display: flex;
     flex-direction: column;
     justify-content: none;
-    align-items: none;
-    gap: 50px; }
+    align-items: none; }
     .reserve .form-date .btn-outline-dark {
       color: #ff6b97;
       border-color: #ff6b97;
-      border-radius: 50px; }
+      border-radius: 50px;
+      font-size: .8em;
+      margin-top: 4rem; }
       .reserve .form-date .btn-outline-dark:hover {
         color: black;
         background-color: #ff6b97;
@@ -233,9 +236,13 @@ h2 {
     display: none; }
   .bio-1 .bio-text {
     max-width: 100%; }
+  .reserva-sesion {
+    padding-bottom: 10rem; }
   .reserve {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: none;
     align-items: stretch;
     gap: 1px;
     font-size: 1.8em;
@@ -251,7 +258,10 @@ h2 {
     .reserve .form-date {
       display: flex;
       flex-direction: column;
-      gap: 5px; } }
+      gap: 5px;
+      margin-top: 4rem; }
+      .reserve .form-date .btn-outline-dark {
+        margin-top: 3rem; } }
 
 /*INICIO BLOG*/
 .grid-blog {
@@ -404,7 +414,9 @@ h2 {
     .contact-main .contact-form div .btn-primary {
       color: #fff;
       background-color: #ff6b97;
-      border-color: #ff6b97; }
+      border-color: #ff6b97;
+      width: 10em;
+      font-size: .8em; }
 
 /*FIN CONTACTO*/
 /*MEDIA*/
@@ -515,7 +527,7 @@ h2 {
     .carousel-inner .carousel-item p {
       text-align: center;
       padding: 2rem;
-      font-size: 1.3em; }
+      font-size: 2em; }
     .carousel-inner .carousel-item img {
       width: 200px;
       margin-top: 5rem; }
@@ -608,12 +620,13 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: none;
-    align-items: none;
-    gap: 50px; }
+    align-items: none; }
     .reserve .form-date .btn-outline-dark {
       color: #ff6b97;
       border-color: #ff6b97;
-      border-radius: 50px; }
+      border-radius: 50px;
+      font-size: .8em;
+      margin-top: 4rem; }
       .reserve .form-date .btn-outline-dark:hover {
         color: black;
         background-color: #ff6b97;
@@ -628,15 +641,19 @@ h2 {
     display: none; }
   .bio-1 .bio-text {
     max-width: 100%; }
+  .reserva-sesion {
+    padding-bottom: 10rem; }
   .reserve {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: none;
     align-items: stretch;
     gap: 1px;
     font-size: 1.8em;
     width: 100%; }
+    .reserve .form-check {
+      padding-bottom: 2rem; }
     .reserve .reserve-form {
       width: 100%; }
       .reserve .reserve-form div div .form-control {
@@ -648,7 +665,10 @@ h2 {
     .reserve .form-date {
       display: flex;
       flex-direction: column;
-      gap: 5px; } }
+      gap: 5px;
+      margin-top: 4rem; }
+      .reserve .form-date .btn-outline-dark {
+        margin-top: 3rem; } }
 
 /*SOBRE MI*/
 .aboutme__title {
